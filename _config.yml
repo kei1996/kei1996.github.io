@@ -1,25 +1,20 @@
-title: wu-kan # 站点标题
+title: keiketsu # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  SYSU第5年<br/>
-  水野爱<br/>
-  田宫例四驱车<br/>
-  <a href="mailto:i@wu-kan.cn">
+  keiketsu<br/>
+  <a href="mailto:oyster2021@gmail.com">
     <i class="fa-solid fa-envelope"></i>
   </a>
   <a href="https://github.com/wu-kan">
     <i class="fa-brands fa-github"></i>
   </a>
-  <a href="https://vjudge.net/user/WuK">
-    <i class="fa-solid fa-smile"></i>
-  </a>
-  <a href="https://space.bilibili.com/166390020">
+  <a href="https://space.bilibili.com/11831891">
     <i class="fa-brands fa-bilibili"></i>
   </a>
-  <a href="https://www.zhihu.com/people/wu.kan/activities">
+  <a href="https://www.zhihu.com/people/keiketsu2022">
     <i class="fa-brands fa-zhihu"></i>
   </a>
   <br/>
-url: https://wu-kan.cn # 你的域名，例如 https://wu-kan.github.io
+url: https://keiketsublog.com # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/front-matter-defaults/>功能进行配置
@@ -40,7 +35,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         default:
           body:
             theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
-            layout-reverse: true # 开启后sidebar在右边，反之左边
+            layout-reverse: false # 开启后sidebar在右边，反之左边
             sidebar-overlay: true # 开启后正文不随sidebar移动而移动
           html_lang: zh # <https://www.w3school.com.cn/tags/html_ref_language_codes.asp>
           sidebar: # 此配置项下是一些关于侧边栏的配置
@@ -49,13 +44,13 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               enable: true
               img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
-              - title: '<i class="fa-solid fa-home fa-fw"></i> 首页'
+              - title: '<i class="fa-solid fa-home fa-fw"></i> HomePage'
                 href: /
-              - title: '<i class="fa-solid fa-comment fa-fw"></i> 留言'
+              - title: '<i class="fa-solid fa-comment fa-fw"></i> Comment'
                 href: /comments/
-              - title: '<i class="fa-solid fa-archive fa-fw"></i> 归档'
+              - title: '<i class="fa-solid fa-archive fa-fw"></i> Blog'
                 href: /archive/
-              - title: '<i class="fa-solid fa-tags fa-fw"></i> 标签'
+              - title: '<i class="fa-solid fa-tags fa-fw"></i> Tag'
                 href: /tags/
               - title: '<i class="fa-solid fa-coffee fa-fw"></i> 打赏'
                 href: /merger/
@@ -80,7 +75,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
                 <input
                   id="sidebar-search-input"
-                  placeholder="搜索博文"
+                  placeholder="search blog"
                 />
                 <ol
                   id="sidebar-search-results-container"
@@ -99,7 +94,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     })'
                 ></script>
             jekyll-toc: # 侧边栏的目录插件，https://github.com/allejo/jekyll-toc
-              enable: true
+              enable: false
               prepend: | # 目录过长时自动折叠
                 <style>
                   #toc {
@@ -214,7 +209,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     document.getElementById("run_time_hour"),
                     document.getElementById("run_time_minute"),
                     document.getElementById("run_time_second"),
-                    "10/04/2017 11:03:56")// 这是我第一篇CSDN博客的时间
+                    "09/14/2022 00:00:00")// 这是我第一篇CSDN博客的时间
                   </script>
                 </div>
               - | # 不蒜子页面统计，看不懂可不改
@@ -242,32 +237,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     async='async'
                   ></script>
                 </div>
-              - | # 觉得我的主题好用的话，让更多的人知道它吧！
-                <div>
-                  <i class="fa-solid fa-thumbs-up fa-fw"></i>
-                  <a href="https://jekyll-theme-WuK.wu-kan.cn">
-                    jekyll-theme-WuK
-                  </a>
-                </div>
-              - | # Copyright声明
-                <div>
-                  <i class="fa-solid fa-copyright fa-fw"></i>
-                  2017-2022 WuK
-                </div>
-              - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
-                <div>
-                  <i class="fa-solid fa-info-circle fa-fw"></i>
-                  <a href="http://beian.miit.gov.cn">
-                    粤ICP备 20024947号
-                  </a>
-                </div>
-              - | # 公安网备信息
-                <div>
-                  <img src="https://cdn.jsdelivr.net/gh/wu-kan/blog-image/2021/12/07/0.png" class="fa-fw"></img>
-                  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34070202000407">
-                    皖公网安备 34070202000407号
-                  </a>
-                </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fa-solid fa-user-edit fa-fw"></i>
@@ -281,7 +250,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 自定义主题色，可对应 <https://www.runoob.com/cssref/css-colornames.html> 挑选
               <style>
                 .theme-base-07 {
-                  --theme-base-color: DarkSlateBlue;
+                  --theme-base-color: DarkGray;
                 }
               </style>
             - | # 一些页面优化标签，看不懂可跳过
