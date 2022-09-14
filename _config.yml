@@ -1,7 +1,6 @@
 title: keiketsu # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  <h1 style="font-size:5vw;">keiketsu</h1><br/>
-#  keiketsu<br/>
+  keiketsu<br/>
   <a href="mailto:oyster2021@gmail.com">
     <i class="fa-solid fa-envelope"></i>
   </a>
@@ -213,22 +212,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     "09/14/2022 00:00:00")// 这是我第一篇CSDN博客的时间
                   </script>
                 </div>
-              - |
-                <h1 style="font-size:5vw;">keiketsu</h1><br/>
-#                  keiketsu<br/>
-                  <a href="mailto:oyster2021@gmail.com">
-                    <i class="fa-solid fa-envelope"></i>
-                  </a>
-                  <a href="https://github.com/kei1996">
-                    <i class="fa-brands fa-github"></i>
-                  </a>
-                  <a href="https://space.bilibili.com/11831891">
-                    <i class="fa-brands fa-bilibili"></i>
-                  </a>
-                  <a href="https://www.zhihu.com/people/keiketsu2022">
-                    <i class="fa-brands fa-zhihu"></i>
-                  </a>
-                  <br/>
 #              - | # 不蒜子页面统计，看不懂可不改
 #                <div>
 #                  <div>
