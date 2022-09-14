@@ -171,16 +171,16 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   <i class="fa-solid fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
                     <i class="fa-solid fa-spinner fa-pulse"></i>
-                  </span>天
+                  </span>day
                   <span id="run_time_hour">
                     <i class="fa-solid fa-spinner fa-pulse"></i>
-                  </span>时
+                  </span>hr
                   <span id="run_time_minute">
                     <i class="fa-solid fa-spinner fa-pulse"></i>
-                  </span>分
+                  </span>min
                   <span id="run_time_second">
                     <i class="fa-solid fa-spinner fa-pulse"></i>
-                  </span>秒
+                  </span>sec
                   <script>
                     setInterval(function (d,h,m,s,b) {
                       function setzero(i) {
@@ -212,31 +212,31 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     "09/14/2022 00:00:00")// 这是我第一篇CSDN博客的时间
                   </script>
                 </div>
-              - | # 不蒜子页面统计，看不懂可不改
-                <div>
-                  <div>
-                    <i class="fa-solid fa-eye fa-fw"></i>
-                    <span id="busuanzi_value_page_pv">
-                      <i class="fa-solid fa-spinner fa-pulse"></i>
-                    </span>次
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-paw fa-fw"></i>
-                    <span id="busuanzi_value_site_pv">
-                      <i class="fa-solid fa-spinner fa-pulse"></i>
-                    </span>枚
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-user-friends fa-fw"></i>
-                    <span id="busuanzi_value_site_uv">
-                      <i class="fa-solid fa-spinner fa-pulse"></i>
-                    </span>人
-                  </div>
-                  <script
-                    src='https://cdn.jsdelivr.net/npm/busuanzi@2.3/bsz.pure.mini.js'
-                    async='async'
-                  ></script>
-                </div>
+#              - | # 不蒜子页面统计，看不懂可不改
+#                <div>
+#                  <div>
+#                    <i class="fa-solid fa-eye fa-fw"></i>
+#                    <span id="busuanzi_value_page_pv">
+#                      <i class="fa-solid fa-spinner fa-pulse"></i>
+#                    </span>次
+#                  </div>
+#                  <div>
+#                    <i class="fa-solid fa-paw fa-fw"></i>
+#                    <span id="busuanzi_value_site_pv">
+#                      <i class="fa-solid fa-spinner fa-pulse"></i>
+#                    </span>枚
+#                  </div>
+#                  <div>
+#                    <i class="fa-solid fa-user-friends fa-fw"></i>
+#                    <span id="busuanzi_value_site_uv">
+#                      <i class="fa-solid fa-spinner fa-pulse"></i>
+#                    </span>人
+#                  </div>
+#                  <script
+#                    src='https://cdn.jsdelivr.net/npm/busuanzi@2.3/bsz.pure.mini.js'
+#                    async='async'
+#                  ></script>
+#                </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fa-solid fa-user-edit fa-fw"></i>
@@ -288,24 +288,24 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"
               />
-            - | # 侧边栏放缩修正
-              <style>
-                .wrap {
-                  transition-property: width,background-size,transform;
-                  transition-duration: .3s;
-                  transition-timing-function: ease-in-out;
-                  display: inline-block;
-                }
-                @media screen and (min-width: 28rem) {
-                  .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
-                    width: calc(100% - 14rem);
-                    transform: translateX(14rem);
-                  }
-                  .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
-                    transform: translateX(0);
-                  }
-                }
-              </style>
+#            - | # 侧边栏放缩修正
+#              <style>
+#                .wrap {
+#                  transition-property: width,background-size,transform;
+#                  transition-duration: .3s;
+#                  transition-timing-function: ease-in-out;
+#                  display: inline-block;
+#                }
+#                @media screen and (min-width: 28rem) {
+#                  .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
+#                    width: calc(100% - 14rem);
+#                    transform: translateX(14rem);
+#                  }
+#                  .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
+#                    transform: translateX(0);
+#                  }
+#                }
+#              </style>
             - | # <https://zenozeng.github.io/fonts.css/>，跨平台中文字体解决方案
               <link
                 rel="stylesheet"
