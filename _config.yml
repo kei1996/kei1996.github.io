@@ -1,20 +1,20 @@
 title: keiketsu # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  <text style="font-size:20px;">keiketsu</text>
+  <text style="font-size:18px;text-align:center;">keiketsu</text>
   <br/>
-  <a href="mailto:oyster2021@gmail.com">
-    <i class="fa-solid fa-envelope fa-lg"></i>
-  </a>
-  <a href="https://github.com/kei1996">
-    <i class="fa-brands fa-github fa-lg"></i>
-  </a>
-  <a href="https://space.bilibili.com/11831891">
-    <i class="fa-brands fa-bilibili fa-lg"></i>
-  </a>
-  <a href="https://www.zhihu.com/people/keiketsu2022">
-    <i class="fa-brands fa-zhihu fa-lg"></i>
-  </a>
-  <br/>
+#  <a href="mailto:oyster2021@gmail.com">
+#    <i class="fa-solid fa-envelope fa-lg"></i>
+#  </a>
+#  <a href="https://github.com/kei1996">
+#    <i class="fa-brands fa-github fa-lg"></i>
+#  </a>
+#  <a href="https://space.bilibili.com/11831891">
+#    <i class="fa-brands fa-bilibili fa-lg"></i>
+#  </a>
+#  <a href="https://www.zhihu.com/people/keiketsu2022">
+#    <i class="fa-brands fa-zhihu fa-lg"></i>
+#  </a>
+#  <br/>
 url: https://keiketsublog.com # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -108,8 +108,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
             append_to_sidebar:
               - | # 头像背后的信息（html格式），<br/>代表换行
-                <text style="font-size:20px;">keiketsu</text>
-                <br/>
                 <a href="mailto:oyster2021@gmail.com">
                   <i class="fa-solid fa-envelope fa-lg"></i>
                 </a>
@@ -122,8 +120,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <a href="https://www.zhihu.com/people/keiketsu2022">
                   <i class="fa-brands fa-zhihu fa-lg"></i>
                 </a>
-                <br/>
-                <br/>
                 <br/>
               #- <script defer="defer" src="https://cdn.jsdelivr.net/gh/poole/lanyon@v1.1.0/public/js/script.min.js"></script> # 点击空白处而非按钮从而关闭侧边栏的插件，可选
               - | # 侧边栏使用主题色
