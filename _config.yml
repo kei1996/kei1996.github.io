@@ -1,6 +1,6 @@
 title: keiketsu # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  <text style="font-size:18px;text-align:center;">keiketsu</text>
+  <text style="font-size:18px;text-indent:10px;">keiketsu</text>
   <br/>
 #  <a href="mailto:oyster2021@gmail.com">
 #    <i class="fa-solid fa-envelope fa-lg"></i>
