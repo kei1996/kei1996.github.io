@@ -171,7 +171,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   <i class="fa-solid fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
                     <i class="fa-solid fa-spinner fa-pulse"></i>
-                  </span>day
+                  </span>d
                   <span id="run_time_hour">
                     <i class="fa-solid fa-spinner fa-pulse"></i>
                   </span>hr
@@ -180,7 +180,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   </span>min
                   <span id="run_time_second">
                     <i class="fa-solid fa-spinner fa-pulse"></i>
-                  </span>sec
+                  </span>s
                   <script>
                     setInterval(function (d,h,m,s,b) {
                       function setzero(i) {
@@ -288,24 +288,24 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"
               />
-#            - | # 侧边栏放缩修正
-#              <style>
-#                .wrap {
-#                  transition-property: width,background-size,transform;
-#                  transition-duration: .3s;
-#                  transition-timing-function: ease-in-out;
-#                  display: inline-block;
-#                }
-#                @media screen and (min-width: 28rem) {
-#                  .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
-#                    width: calc(100% - 14rem);
-#                    transform: translateX(14rem);
-#                  }
-#                  .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
-#                    transform: translateX(0);
-#                  }
-#                }
-#              </style>
+            - | # 侧边栏放缩修正
+              <style>
+                .wrap {
+                  transition-property: width,background-size,transform;
+                  transition-duration: .3s;
+                  transition-timing-function: ease-in-out;
+                  display: inline-block;
+                }
+                @media screen and (min-width: 28rem) {
+                  .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
+                    width: calc(100% - 14rem);
+                    transform: translateX(14rem);
+                  }
+                  .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
+                    transform: translateX(0);
+                  }
+                }
+              </style>
             - | # <https://zenozeng.github.io/fonts.css/>，跨平台中文字体解决方案
               <link
                 rel="stylesheet"
