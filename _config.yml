@@ -44,6 +44,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             avatar: # 侧边栏显示的头像
               enable: true
               img: https://i.pinimg.com/originals/f3/4d/36/f34d36b69ffe71f9d13c18bbca798b1e.jpg # 头像的地址
+            name: | # 头像背后的信息（html格式），<br/>代表换行
+              <text style="font-size:20px;">keiketsu</text>
+              <br/>
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fa-solid fa-home fa-fw"></i> HomePage'
                 href: /
