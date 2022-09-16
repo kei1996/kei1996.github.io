@@ -5,10 +5,8 @@ welcome to my blog!
 ## Contact
 
 - Address
-  - **JAPAN, Tokyo, Edogawa City**
+  - **Japan, Tokyo**
 - Site
   - **<https://keiketsublog.com>**
-- Phone
-  - **+81 080-3121-4414**
 - G-mail:
   - **[oyster2021@gmail.com](mailto:oyster2021@gmail.com)**
