@@ -11,16 +11,15 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://twitter.com/HKeiketsu">
     <i class="fa-brands fa-twitter fa-lg"></i>
   </a>
-  <br/>
-  <a href="https://www.tumblr.com/blog/keiketsu">
-    <i class="fa-brands fa-tumblr fa-lg"></i>
-  </a>
+#  <a href="https://www.tumblr.com/blog/keiketsu">
+#    <i class="fa-brands fa-tumblr fa-lg"></i>
+#  </a>
   <a href="https://space.bilibili.com/1792497533">
     <i class="fa-brands fa-bilibili fa-lg"></i>
   </a>
-  <a href="https://www.zhihu.com/people/keiketsu2022">
-    <i class="fa-brands fa-zhihu fa-lg"></i>
-  </a>
+#  <a href="https://www.zhihu.com/people/keiketsu2022">
+#    <i class="fa-brands fa-zhihu fa-lg"></i>
+#  </a>
   <br/>
 url: https://keiketsublog.com # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
