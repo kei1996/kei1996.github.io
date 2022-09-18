@@ -2,17 +2,20 @@ title: keiketsu # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   <text style="font-size:18px;">keiketsu</text>
   <br/>
-  <a href="mailto:oyster2021@gmail.com">
+  <a href="mailto:hkeiketsu@gmail.com">
     <i class="fa-solid fa-envelope fa-lg"></i>
   </a>
-  <a href="https://github.com/kei1996">
+  <a href="https://github.com/keiketsu">
     <i class="fa-brands fa-github fa-lg"></i>
   </a>
-  <a href="https://space.bilibili.com/1792497533">
-    <i class="fa-brands fa-bilibili fa-lg"></i>
+    <a href="https://twitter.com/HKeiketsu">
+    <i class="fa-brands fa-twitter fa-lg"></i>
   </a>
   <a href="https://www.zhihu.com/people/keiketsu2022">
     <i class="fa-brands fa-zhihu fa-lg"></i>
+  </a>
+    <a href="https://space.bilibili.com/1792497533">
+    <i class="fa-brands fa-bilibili fa-lg"></i>
   </a>
   <br/>
 url: https://keiketsublog.com # 你的域名，例如 https://wu-kan.github.io
