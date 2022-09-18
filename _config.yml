@@ -12,7 +12,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fa-brands fa-twitter fa-lg"></i>
   </a>
   <a href="https://www.tumblr.com/blog/keiketsu">
-    <i class="fa-brands fa-square-tumblr fa-lg"></i>
+    <i class="fa-brands fa-tumblr fa-lg"></i>
   </a>
   <a href="https://space.bilibili.com/1792497533">
     <i class="fa-brands fa-bilibili fa-lg"></i>
