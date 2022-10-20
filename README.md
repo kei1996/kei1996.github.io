@@ -10,3 +10,5 @@ welcome to my blog!
   - **<https://keiketsublog.com>**
 - G-mail:
   - **[hkeiketsu@gmail.com](mailto:hkeiketsu@gmail.com)**
+
+####  ※Check my icon for more info about me
