@@ -9,4 +9,4 @@ welcome to my blog!
 - Site
   - **<https://keiketsublog.com>**
 - G-mail:
-  - **[oyster2021@gmail.com](mailto:oyster2021@gmail.com)**
+  - **[hkeiketsu@gmail.com](mailto:hkeiketsu@gmail.com)**
