@@ -15,4 +15,4 @@ welcome to my blog!
 
 
 
-- ####  ※ Check my icon for more info about me
+####  ※ Check my icon for more info about me
