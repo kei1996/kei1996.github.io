@@ -12,7 +12,7 @@
   - **[hkeiketsu@gmail.com](mailto:hkeiketsu@gmail.com)**
 
 <!-- .slide vertical=true -->
-# More info about me
+### More info about me
 
  <br/>
   <a href="mailto:hkeiketsu@gmail.com">
