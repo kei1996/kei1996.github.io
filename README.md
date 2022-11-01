@@ -14,7 +14,6 @@
 <!-- .slide vertical=true -->
 - More info about me
 
-  <br/>
   <a href="mailto:hkeiketsu@gmail.com">
     <i class="fa-solid fa-envelope fa-lg"></i>
   </a>&nbsp;&nbsp;
@@ -30,4 +29,3 @@
   <a href="https://www.zhihu.com/people/keiketsu2022">
     <i class="fa-brands fa-zhihu fa-lg"></i>
   </a>&nbsp;&nbsp;
-  <br/>
