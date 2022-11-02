@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-2017-11-27-プロジェクトをGit管理する",
+      "appliesTo": "_posts/2017-11-27-プロジェクトをGit管理する.md",
+      "type": "launch"
+    }
+  ]
+}
