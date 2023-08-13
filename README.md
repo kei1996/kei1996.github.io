@@ -24,7 +24,7 @@
   <a href="https://twitter.com/HKeiketsu">
     <i class="fa-brands fa-twitter fa-lg"></i>
   </a>&nbsp;&nbsp;
-  <a href="https://space.bilibili.com/1792497533">
+  <a href="https://space.bilibili.com/3494360870029354">
     <i class="fa-brands fa-bilibili fa-lg"></i>
   </a>&nbsp;&nbsp;
   <a href="https://www.zhihu.com/people/keiketsu2022">
